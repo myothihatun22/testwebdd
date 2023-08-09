@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <style>
+  body {
+    
+  }
+.contactUs{
+  width: 100%;
+}
+
+.formContact {
+  background-color: #777777;
+  color: #000000; 
+}
+
+.formContact h2 {
+  color: #000000; 
+}
+
+.form-group w-100 label {
+  color: #000000; 
+}
+
+.form-control {
+  
+}
+
+.form-control:focus {
+  border-color: #000000; 
+  box-shadow: none !important; 
+}
+
+.btn-dark {
+  background-color: #000000; 
+  color: #ffffff;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #333333; 
+}
+.contactUsBorder{
+  border-bottom: #000000 2px solid;
+  border-left: 2px solid #000000;
+}
+.contactUsBorderT{
+  border-top: 2px solid #000000;
+  border-right: 2px solid black;
+  
+  padding: 30px;
+}
+.contactContainer{
+  width: 100%;
+  height: 100vh;
+}
+
+  </style>
+</head>
+<body>
+    <!--loading-->
+    <div class="loading ">
+    <span class="loader"></span>
+    </div>
+    <!--contact us-->
+    <div class="">
+      <div class="row contactContainer">
+        <div class="d-lg-flex d-none bg-black col-2 text-center d-flex justify-content-center align-items-center">
+          <div class=" bg-black text-white rotateText fs-1">FactionGit</div>
+        </div>
+        <div class="col-4 contactUsBorderT m-auto d-lg-block d-none">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14005.823225584176!2d96.1652058840052!3d16.857863219318613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1690210026033!5m2!1sen!2smm" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        <div class="col-lg-6  col-11 m-auto">
+          <div class="d-flex flex-column mt-5  contactUsBorder">
+            <form class="p-2 formContact d-flex flex-column  align-items-center">
+                <h2 class="mb-4 text-center">Contact Us</h2>
+              <div class="form-group w-100 p-2">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group w-100 p-2">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="form-group w-100 p-2">
+                <label for="message">Message</label>
+                <input class="form-control" id="message" rows="4" placeholder="Type your message here" required></input>
+              </div>
+              <button type="submit" class="btn w-50  rexContactUsBTN" >Contact Us</button>
+              
+            </form>
+          </div>
+        
+            
+              
+        </div>
+        
+      </div>
+        
+      </div>
+    </div>
+    
+    <a class="rexBoxShadow homeBTN position-absolute" href="fullpage.html#homeview">
+        <i class="bi bi-house-door-fill"></i>
+    </a>
+    
+
+
+</body>
+<script >
+  // for loader
+      window.addEventListener("load", ()=> {
+          document.querySelector(".loading").classList.add("d-none")
+      })
+  </script>
+</html>

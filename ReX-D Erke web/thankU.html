@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks U</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="crossorigin">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <style>
+        body {
+            text-align: center;
+        }
+        
+        .typingEffect {
+            width: 70%;
+            animation: typing 2s steps(22), blink 0.5s step-end infinite;
+            white-space: nowrap; /* keep text on one line */
+            overflow: hidden;
+            border-right: 1px solid #fbfbfb; /* color of cursor */
+            font-family: 'Courier New', Courier, monospace;
+            padding: 3px;
+            margin: auto auto;
+        }
+        .arrow {
+        margin-left: -10px;
+        width: 0;
+        opacity: 0;
+        } 
+        .backBtn:hover .arrow {
+        color: white;
+        width: 100%;
+        margin-left: 10px;
+        opacity: 1;
+        transition: 0.6s;
+        }
+        
+        @keyframes typing {
+            from {
+                width: 0;
+            } 
+        }
+        
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+        @media (max-width:1000px) {
+            .typingEffect {
+             font-size: 20px !important;
+             width: 90%;
+            }
+        }
+        @media (max-width:350px) {
+            .typingEffect {
+             font-size: 15px !important;
+             width: 100%;
+            }
+        }
+    </style>
+</head>
+<body class="bg-dark text-white m-auto" >
+    <!--loading-->
+    <div class="loading ">
+        <span class="loader"></span>
+    </div>
+    <div class="container mt-5">
+        <h2 class="typingEffect p-lg-3 fs-1  fw-bold">Thank you for purchasing !</h2>
+        
+        <a href="fullpage.html" class="btn border fs-6 mt-3 fs-lg-4 backBtn text-decoration-none text-white fs-5">
+        <span class=" arrow fs-6 "> &larr; </span>
+            Back To Home
+      </a>
+    </div>
+</body>
+<script >
+    // for loader
+        window.addEventListener("load", ()=> {
+            document.querySelector(".loading").classList.add("d-none")
+        })
+    </script>
+</html>

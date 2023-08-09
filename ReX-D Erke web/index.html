@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FactionGit</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous">
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+        <style>
+        </style>
+    </head>
+    <body class="rex-dBGC ">
+        <!--loading-->
+        <div class="loading ">
+            <span class="loader"></span>
+        </div>
+        <!-- NaVBar-->
+        <div id="homeview" class="navbar  p-2 ">
+            <div class="container text-center">
+                <a
+                    href="index.html"
+                    class="fs-1 fw-bold fst-italic text-center w-100 border-bottom">
+                    FashionGit
+                </a>
+            <div class="row  w-100">
+
+                    <h1 class="fs-lg-3 fs-5 text-center d-flex align-items-center col">
+                        <a
+                            class=" fashionGit fw-bold fst-italic text-decoration-none text-dark"
+                            href="fullpage.html">Erke Accessories
+                        </a>
+                    </h1>
+                    <!-- For Menu bar Mobile-->
+                    
+                    <div  class="d-lg-none d-flex justify-content-center align-items-center flex-column menuBar col" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasStart" aria-controls="offcanvasStart">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    
+
+                    <!-- menu offcanvus for mobile -->
+                    
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasStart" aria-labelledby="offcanvasStartLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasStartLabel">FashionGit</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="row">
+                                <div class="w-100 dropdown">
+                                    <button
+                                        class="w-100 border btn btn-outline-dark dropdown-toggle"
+                                        type="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Categories
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="shoes.html">Erke Shoes</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="Tshirts.html">Erke T-shirts</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="jacket.html">Erke Jacket</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="bagpack.html">Erke Backpack</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="pants.html">Erke Pants</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- for mobile nav-->
+                            <div class=" btn-dark w-100  col btn p-2 my-3">
+                                <a class="text-white" href="login.html">
+                                    Login
+                                    <i class="bi bi-box-arrow-in-left"></i>
+                                </a>
+                            </div>
+                            <div class=" btn-dark w-100  col btn p-2 my-3">
+                                <a class="text-white" href="signup.html">Sign up
+                                    <i class="bi bi-person-circle"></i>
+                                </a>
+                            </div>
+                            <a
+                                href="contactus.html"
+                                class=" btn-dark w-100  col btn p-2 my-3">
+                                Contact Us
+                            </a>
+                        </div>
+                    </div>
+                <!-- for navbar pc-->
+            <div class="col d-none d-lg-block">
+                        <div class="dropdown">
+                            <button
+                                class="btn btn-close-white dropdown-toggle"
+                                type="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categories
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="shoes.html">Erke Shoes</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="Tshirts.html">Erke T-shirts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="jacket.html">Erke Jacket</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="bagpack.html">Erke Backpack</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="pants.html">Erke Pants</a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+                <div class=" d-none d-lg-block  col  p-2">
+                        <a class="rexBTN" href="login.html">
+                            Login
+                            <i class="bi bi-box-arrow-in-left"></i>
+                        </a>
+                </div>
+                <div class=" d-none d-lg-block col p-2 ">
+                        <a class="rexBTN" href="signup.html">Sign up
+                            <i class="bi bi-person-circle"></i>
+                        </a>
+                </div>
+                <div class=" d-none d-lg-block col p-2 ">
+                    <a class="rexBTN" href="contactus.html">Contact Us
+                        
+                    </a>
+                </div>
+                
+            </div>
+                
+                </div>
+        </div>
+        <!--hero section-->
+        <div class="heroS">
+            <div class="container mt-4">
+                <h2 class="text-center p-2 textBorder">Promotion </h2>
+                <div class="row">
+                    <div class=" col-lg-3 col-md-6 col-12">
+                            <a href="jacket.html" class="rexBoxShadow m-3 p-2 row ">
+                                <img  src="Sources PHOTO/ERKE-WOMENS-jacket.jpg" alt="">
+                                <div class="col">
+                                    <span class="text-decoration-line-through mx-2">$35.9</span>
+                                    <span>$29.9</span>
+                                </div>
+                            </a>
+                        <a href="bagpack.html" class=" rexBoxShadow m-3 p-2 row">
+                            <img width="200px" src="Sources PHOTO/bagpack.jpg" alt="">
+                            <div class="col">
+                                <span class="text-decoration-line-through mx-2">$27.4</span>
+                                <span>$24</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <a href="Tshirts.html" class="rexBoxShadow m-3 p-2 row">
+                            <img src="Sources PHOTO/erke-tshirts-3.jpg" alt="">
+                            <div class="col">
+                                <span class="text-decoration-line-through mx-2">$35.9</span>
+                                <span>$29.9</span>
+                            </div>
+                        </a>
+                        <a href="jacket.html" class="rexBoxShadow m-3 p-2 row">
+                            <img src="Sources PHOTO/erke-jacket-5.jpg" alt="">
+                            <div class="col">
+                                <span class="text-decoration-line-through mx-2">$65.9</span>
+                                <span>$23.4</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <a href="shoes.html" class="rexBoxShadow m-3 p-2 row">
+                            <img src="Sources PHOTO/erke-shoes-5.jpg" alt="">
+                            <div class="col">
+                                <span class="text-decoration-line-through mx-2">$35.9</span>
+                                <span>$29.9</span>
+                            </div>
+                        </a>
+                        <a href="shoes.html" class="rexBoxShadow m-3 p-2 row">
+                            <img src="Sources PHOTO/images.jpg" alt="">
+                            <div class="col">
+                                <span class="text-decoration-line-through mx-2">$30.9</span>
+                                <span>$24</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 ">
+                        <a href="pants.html" class="rexBoxShadow m-3 p-2 row">
+                            <img src="Sources PHOTO/ERKE-MENS-WINTER-KNITTED-CROPPED-PANT-.jpg" alt="">
+                            <div class="col">
+                                <span class="text-decoration-line-through mx-2">$55.9</span>
+                                <span>$23.4</span>
+                            </div>
+                        </a>
+                        <div class="row py-2 py-lg-4 my-2 my-lg-4">
+                            <div class="text-git">
+                            <h2 class="welcomeT">Welcome to FashionGit -</h2>
+                            <span class="">Discover the latest trends, stylish outfits, and more, including top brands like Erke. Let's elevate your style together!</span>
+                            </div>
+                            <a href="fullpage.html" class="rexBoxShadow viewFull my-2 my-lg-3 mx-2 mx-lg-3 fw-lg-bold text-center col p-2 rexContactUsBTN">
+                                <div class="whiteH" >
+                                    View Full Page
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+        <!--footer-->
+        <footer class="mt-5 bg-dark">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>&copy; 2023 FashionGit. All rights reserved.</p>
+                        <p>Contact us: myothihatun004@gmail.com
+                            <i class="bi bi-envelope"></i>
+                            | Phone: +95 99864675</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <i class="bi bi-footer  bi-facebook"></i>
+                        <i class="bi bi-footer bi-discord"></i>
+                        <i class="bi bi-footer bi-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+    <script >
+        
+        window.addEventListener("load", ()=> {
+            document.querySelector(".loading").classList.add("d-none")
+        })
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    
+    
+</html>

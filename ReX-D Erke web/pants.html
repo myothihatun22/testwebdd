@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erke Pants</title>
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous">
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--loading-->
+    <div class="loading ">
+        <span class="loader"></span>
+    </div>
+     <!-- NaVBar-->
+    <div id="homeview" class="navbar  p-2 ">
+        <div class="container text-center">
+            <a
+                href="index.html"
+                class="fs-1 fw-bold fst-italic text-center w-100 border-bottom">
+                FashionGit
+            </a>
+        <div class="row  w-100">
+
+                <h1 class="fs-lg-3 fs-5 text-center d-flex align-items-center col">
+                    <a
+                        class=" fashionGit fw-bold fst-italic text-decoration-none text-dark"
+                        href="fullpage.html">Erke Accessories
+                    </a>
+                </h1>
+                <!-- For Menu bar Mobile-->
+                
+                <div  class="d-lg-none d-flex justify-content-center align-items-center flex-column menuBar col" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasStart" aria-controls="offcanvasStart">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                
+
+                <!-- menu offcanvus for mobile -->
+                
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasStart" aria-labelledby="offcanvasStartLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasStartLabel">FashionGit</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="row">
+                            <div class="w-100 dropdown">
+                                <button
+                                    class="w-100 border btn btn-outline-dark dropdown-toggle"
+                                    type="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Categories
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="shoes.html">Erke Shoes</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="Tshirts.html">Erke T-shirts</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="jacket.html">Erke Jacket</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="bagpack.html">Erke Backpack</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="pants.html">Erke Pants</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- for mobile nav-->
+                        <div class=" btn-dark w-100  col btn p-2 my-3">
+                            <a class="text-white" href="login.html">
+                                Login
+                                <i class="bi bi-box-arrow-in-left"></i>
+                            </a>
+                        </div>
+                        <div class=" btn-dark w-100  col btn p-2 my-3">
+                            <a class="text-white" href="signup.html">Sign up
+                                <i class="bi bi-person-circle"></i>
+                            </a>
+                        </div>
+                        <a
+                            href="contactus.html"
+                            class=" btn-dark w-100  col btn p-2 my-3">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            <!-- for navbar pc-->
+        <div class="col d-none d-lg-block">
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-close-white dropdown-toggle"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categories
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="shoes.html">Erke Shoes</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="Tshirts.html">Erke T-shirts</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="jacket.html">Erke Jacket</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="bagpack.html">Erke Backpack</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="pants.html">Erke Pants</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            <div class=" d-none d-lg-block  col  p-2">
+                    <a class="rexBTN" href="login.html">
+                        Login
+                        <i class="bi bi-box-arrow-in-left"></i>
+                    </a>
+            </div>
+            <div class=" d-none d-lg-block col p-2 ">
+                    <a class="rexBTN" href="signup.html">Sign up
+                        <i class="bi bi-person-circle"></i>
+                    </a>
+            </div>
+            <div class=" d-none d-lg-block col p-2 ">
+                <a class="rexBTN" href="contactus.html">Contact Us
+                    
+                </a>
+            </div>
+            
+        </div>
+            
+            </div>
+    </div>
+    <!-- erke Pants -->
+    <div class="container pt-3 mt-2">
+        <h1 class="text-center p-2 textBorder fst-italic"> Ultimate Erke Pants Collection.</h1>
+         <!--row 6-->
+         <div class="mt-2 row justify-content-center align-items-center g-2 m-auto">
+            <a
+                onclick="displayCard(item=21)" class="col-3 d-flex flex-column allDisplaybox rexBoxShadow mx-2"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                <img
+                    class="allDisplayImg"
+                    src="Sources PHOTO/ERKE-MENS-WINTER-KNITTED-CROPPED-PANT-.jpg"
+                    alt="">
+                <div class="fs-5 textBox d-flex flex-row justify-content-evenly">
+                    <span class="priceText">$23.4 Price</span>
+                    <i class="bi bi-cart-fill"></i>
+                </div>
+
+            </a>
+            <a
+                onclick="displayCard(item=22)" class="col-3 d-flex flex-column allDisplaybox rexBoxShadow mx-2"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                <img class="allDisplayImg" src="Sources PHOTO/erke-pant-2.jpg" alt="">
+                <div class="fs-5 textBox d-flex flex-row justify-content-evenly">
+                    <span class="priceText">$10.9 Price</span>
+                    <i class="bi bi-cart-fill"></i>
+                </div>
+            </a>
+            <a
+                onclick="displayCard(item=23)" class="col-3 d-flex flex-column allDisplaybox rexBoxShadow mx-2"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                <img class="allDisplayImg" src="Sources PHOTO/erke-pant-4.jpg" alt="">
+                <div class="fs-5 textBox d-flex flex-row justify-content-evenly">
+                    <span class="priceText">$29.9 Price</span>
+                    <i class="bi bi-cart-fill"></i>
+                </div>
+            </a>
+            <a
+                onclick="displayCard(item=24)" class="col-3 d-flex flex-column allDisplaybox rexBoxShadow mx-2"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                <img class="allDisplayImg" src="Sources PHOTO/erke-pants-3.jpg" alt="">
+                <div class="fs-5 textBox d-flex flex-row justify-content-evenly">
+                    <span class="priceText">$24 Price</span>
+                    <i class="bi bi-cart-fill"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Modal item detail page   -->
+    <div
+    class="modal fade  "
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog m-auto ">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Details</h1>
+            <button
+                type="button"
+                class="btn-close "
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+            
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <img  class="img-fluid " id="modalImg"  src="" alt="">
+                </div>
+                
+                <div class="col-lg-6 col-12 ">
+                    <div class="d-flex container-sm justify-content-between">
+                        <div class="form-group row-sm w-50">
+                            <label for="sizeSelect">Select Size:</label>
+                            <select class="border form-control" id="sizeSelect">
+                                <option>sm</option>
+                                <option>m</option>
+                                <option>Lg</option>
+                                <option>xL</option>
+                            </select>
+                        </div>
+                        <div class="form-group row-sm w-50">
+                            <label for="countInput">Enter Quantity:</label>
+                            <input type="number" class="border form-control" id="countInput" value="1" min="1">
+                          </div>
+
+                     </div>
+                      <p>Description:</p>
+                      <p>These sneakers are crafted with premium materials, ensuring all-day comfort. The trendy colors and patterns add a touch of flair to any outfit, making them a versatile addition to your wardrobe. Ideal for casual outings, running errands, or hitting the gym.</p>
+                      
+                </div>
+                <div class="row">
+                    
+                    <div class="col-lg-6 col-md-6 col-12">
+                        
+                        <h3 class="bg-dark text-white text-capitalize text-center">ERKE men's Fashion Sneakers</h3>
+                        <p class="lead">Step into comfort and style with these fashionable sneakers from ERKE.</p>
+                        <p class="price text-black-100 fs-2 bg-body-secondary text-center" id="prices"></p>
+                          
+                    </div>
+                    <div class="col-lg-6"><p>Features:</p>
+                        <ul>
+                          <li>Breathable and durable materials</li>
+                          <li>Cushioned insole for enhanced comfort</li>
+                          <li>Non-slip rubber outsole for a secure grip</li>
+                          <li>Stylish design with vibrant color options</li>
+                          <li>Lace-up closure for a secure fit</li>
+                        </ul>
+                       
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-close-white" data-bs-dismiss="modal">Close</button>
+                <a onclick="addCarts()" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation" data-bs-toggle="offcanvas" class="btn btn-dark">
+                    Add to Cart <i class="bi bi-cart-fill"></i> 
+                  </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- offcanvus add to cart Section  -->
+    <div  class=" text-dark offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="text-center bg-dark text-white offcanvas-header d-flex justify-content-between align-items-center">
+            <h3 class=" p-2">Add to Cart <i class="bi bi-cart-fill"></i> </h3>
+            <button type="button" class="fw-bold btn btn-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="bi bi-x-lg "></i>
+            </button>
+          </div>
+            <div id="cartsContainer" class="w-100 overflow-scroll p-2 bg-white">
+                
+                <div id="displayCarts" class="d-flex flex-column-reverse border-bottom-2  bg-white">
+                    <div class="p fs-3 " id="errorCarts">Item Empty</div>
+                    
+                </div>  
+                <p class="fs-5 fw-bold" id="allItemTotal"> </p>
+                
+                <a id="PurchaseBtn" href="purchase.html" type="button" class="d-none m-3 btn btn-dark">
+                    Purchase all items  
+                </a>
+                
+            </div>
+            
+                
+                     
+    </div>
+
+    <!--Home Button-->
+    <a class="rexBoxShadow homeBTN position-absolute" href="fullpage.html#homeview">
+        <i class="bi bi-house-door-fill"></i>
+    </a>
+
+    <!--footer-->
+ <footer class="mt-5 bg-dark">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <p>&copy; 2023 FashionGit. All rights reserved.</p>
+                <p>Contact us: myothihatun004@gmail.com
+                    <i class="bi bi-envelope"></i>
+                    | Phone: +95 99864675</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <i class="bi bi-footer  bi-facebook"></i>
+                <i class="bi bi-footer bi-discord"></i>
+                <i class="bi bi-footer bi-youtube"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+</body>
+<script >
+    // for loader
+        window.addEventListener("load", ()=> {
+            document.querySelector(".loading").classList.add("d-none")
+        })
+    </script>
+<script
+type="text/javascript"
+src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script
+type="text/javascript"
+src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+crossorigin="anonymous"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+
+    $('.popularS').slick({infinite: true, slidesToShow: 3, slidesToScroll: 3});
+});
+</script>
+<script src="myscript.js"></script>
+
+</html>

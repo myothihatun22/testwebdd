@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+          <link
+              href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+              crossorigin="anonymous">
+          <link rel="stylesheet" href="style.css">
+          <link
+              rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+          <link
+              rel="stylesheet"
+              type="text/css"
+              href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<style>
+
+
+
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.login-form {
+  width: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 0.1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.form-links a {
+  margin: 0 5px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.form-links a:hover {
+  text-decoration: underline;
+}
+.rotateText{
+  transform: rotate(90deg);
+}
+
+
+</style>
+
+</head>
+<body>
+  <!--loading-->
+  <div class="loading ">
+    <span class="loader"></span>
+</div>
+  <div class="container">
+    <div class="row">
+      <div class="d-none d-lg-flex fs-1  fw-bold  col-4 bg-dark text-white text-center d-flex justify-content-center align-items-center"> 
+        <a href="fullpage.html" class="rotateText text-white ">FashionGit </a> </div>
+      <div class="col-lg-7 col">
+        <div class="login-container">
+          <form class="login-form">
+            <h2>Login</h2>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+           
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            
+              <a href="fullpage.html" type="submit" class="btn loginbtn rexBoxShadow">Login</a>
+           
+            <div class="form-links">
+              <a href="forgot.html">Forgot Password</a>
+              <a href="signup.html">Sign Up</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Home Button-->
+  <a class="rexBoxShadow homeBTN position-absolute" href="fullpage.html#homeview">
+    <i class="bi bi-house-door-fill"></i>
+</a>
+
+
+
+  
+</body>
+<script >
+  // for loader
+      window.addEventListener("load", ()=> {
+          document.querySelector(".loading").classList.add("d-none")
+      })
+  </script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+crossorigin="anonymous"></script>
+<script></script>
+</html>
